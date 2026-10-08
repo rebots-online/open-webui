@@ -1,10 +1,7 @@
 name: Release to PyPI
 
 on:
-  push:
-    branches:
-      - main # or whatever branch you want to use
-      - pypi-release
+  workflow_dispatch:
 
 jobs:
   release:
